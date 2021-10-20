@@ -1,0 +1,20 @@
+2020-10-28 14:22:41,369 - 正在启动websocket服务器
+2020-10-28 14:22:42,018 - webSocket服务器启动成功：[id: 0xaa62a6b4, L:/0:0:0:0:0:0:0:0:8081]
+2020-10-28 14:24:40,310 - 客户端加入连接：[id: 0xbc3f47c4, L:/190.168.1.40:8081 - R:/190.168.1.40:46585]
+2020-10-28 14:24:40,336 - 收到消息：HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET /websocket HTTP/1.1
+Host: 190.168.1.40:8081
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Upgrade: websocket
+Origin: http://www.websocket-test.com
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Sec-WebSocket-Key: xor/JKUjanMznVX7p+5t5A==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+content-length: 0
+2020-10-28 14:24:43,636 - 收到消息：TextWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 1, cap: 1))
+2020-10-28 14:24:43,637 - 服务端收到：1

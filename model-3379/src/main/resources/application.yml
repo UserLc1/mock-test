@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: nacos-config-client
+    cloud:
+      nacos:
+        discovery:
+          server-addr: localhost:8848 #Nacos\u670D\u52A1\u6CE8\u518C\u4E2D\u5FC3\u5730\u5740
+  aop:
+    proxy-target-class: true
+    servlet:
+      multipart:
+        max-file-size: 100MB
+        max-request-size: 100MB
+    mvc:
+      async:
+        request-timeout: 3000

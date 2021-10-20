@@ -1,0 +1,46 @@
+server:
+  port: 3380
+spring:
+  application:
+    name: nacos-config-client-model3380
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #Nacos服务注册中心地址
+      config:
+        server-addr: localhost:8848 #Nacos配置中心地址
+        file-extension: yml #指定yml格式的配置
+    sentinel:
+      transport:
+        dashboard: localhost:8080 #配置Sentinel dashboard地址
+        port: 8719  #默认8719，如果被占用则从其开始递增寻找未被占用端口
+#  datasource:
+#    # 配置数据源类型
+#    type:
+#      com.alibaba.druid.pool.DruidDataSource
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    password: dev
+#    jdbc-url: jdbc:mysql://190.168.0.250:3306/xg_bus_db?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
+#    username: dev
+#    # 初始化，最小，最大连接数
+#    initialSize: 3
+#    minidle: 3
+#    maxActive: 18
+#    # 获取数据库连接等待的超时时间
+#    maxWait: 60000
+#    # 配置多久进行一次检测，检测需要关闭的空闲连接 单位毫秒
+#    timeBetweenEvictionRunsMillis: 60000
+#    validationQuery: SELECT 1 FROM dual
+#    # 配置监控统计拦截的filters,去掉后，监控界面的sql无法统计
+#    filters: stat,wall,log4j
+#dubbo:
+#  application:
+#    name: dubbo-registry-zookeeper-provider-sample
+#    qosEnable: false
+#  consumer:
+#    check: false
+#  protocol:
+#    name: dubbo
+#    port: 20881
+#  registry:
+#    address: nacos://localhost:8848

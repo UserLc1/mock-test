@@ -1,0 +1,136 @@
+2020-12-07 13:49:30,015 - 正在启动websocket服务器
+2020-12-07 13:49:30,750 - webSocket服务器启动成功：[id: 0xce221fc7, L:/0:0:0:0:0:0:0:0:8081]
+2020-12-07 13:50:20,180 - 客户端加入连接：[id: 0x74f7915e, L:/127.0.0.1:8081 - R:/127.0.0.1:16070]
+2020-12-07 13:50:20,214 - 收到消息：HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: 127.0.0.1:8081
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://www.jsons.cn
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Sec-WebSocket-Key: fMBCVRRq5KfX9k0Rp247Dg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+content-length: 0
+2020-12-07 13:50:30,957 - 收到消息：TextWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 1, cap: 1))
+2020-12-07 13:50:30,959 - 服务端收到：1
+2020-12-07 13:50:38,070 - 客户端加入连接：[id: 0x49c973f1, L:/127.0.0.1:8081 - R:/127.0.0.1:16074]
+2020-12-07 13:50:38,079 - 收到消息：HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: 127.0.0.1:8081
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://coolaf.com
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Sec-WebSocket-Key: sG2uodShxdMMPI5SUzq3Mw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+content-length: 0
+2020-12-07 13:50:52,500 - 收到消息：TextWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 1, cap: 1))
+2020-12-07 13:50:52,500 - 服务端收到：1
+2020-12-07 13:51:04,718 - 收到消息：TextWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 1, cap: 1))
+2020-12-07 13:51:04,722 - 服务端收到：1
+2020-12-07 13:52:21,215 - 正在启动websocket服务器
+2020-12-07 13:52:21,930 - webSocket服务器启动成功：[id: 0x16d6338e, L:/0:0:0:0:0:0:0:0:8081]
+2020-12-07 13:52:29,432 - 客户端加入连接：[id: 0x0b89c624, L:/127.0.0.1:8081 - R:/127.0.0.1:16183]
+2020-12-07 13:52:29,460 - 收到消息：HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: 127.0.0.1:8081
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://coolaf.com
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Sec-WebSocket-Key: ID8Uovu7Pt7Glq6gt8gaVg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+content-length: 0
+2020-12-07 13:52:34,843 - 客户端加入连接：[id: 0xc5fcb525, L:/127.0.0.1:8081 - R:/127.0.0.1:16189]
+2020-12-07 13:52:34,851 - 收到消息：HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: 127.0.0.1:8081
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://www.jsons.cn
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Sec-WebSocket-Key: cNoTN3Y4VSDOOWk7Rt6Clw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+content-length: 0
+2020-12-07 13:52:37,730 - 收到消息：TextWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 1, cap: 1))
+2020-12-07 13:52:37,731 - 服务端收到：1
+2020-12-07 13:52:44,168 - 收到消息：TextWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 1, cap: 1))
+2020-12-07 13:52:44,169 - 服务端收到：2
+2020-12-07 13:59:15,856 - 收到消息：CloseWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 0, cap: 0))
+2020-12-07 13:59:15,863 - 客户端断开连接：[id: 0xc5fcb525, L:/127.0.0.1:8081 ! R:/127.0.0.1:16189]
+2020-12-07 13:59:18,975 - 收到消息：CloseWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 0, cap: 0))
+2020-12-07 13:59:18,977 - 客户端断开连接：[id: 0x0b89c624, L:/127.0.0.1:8081 ! R:/127.0.0.1:16183]
+2020-12-07 13:59:23,036 - 客户端加入连接：[id: 0xdd88d2b2, L:/127.0.0.1:8081 - R:/127.0.0.1:16311]
+2020-12-07 13:59:37,214 - 收到消息：HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: 127.0.0.1:8081
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://coolaf.com
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Sec-WebSocket-Key: mo8iGm31wo6aUBPuaqZeHA==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+content-length: 0
+2020-12-07 13:59:46,117 - 客户端加入连接：[id: 0xa8310034, L:/127.0.0.1:8081 - R:/127.0.0.1:16314]
+2020-12-07 14:00:12,418 - 收到消息：HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: 127.0.0.1:8081
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://www.jsons.cn
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Sec-WebSocket-Key: RPey3NgkRgf9THr3lX0tbQ==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+content-length: 0
+2020-12-07 14:00:15,005 - 收到消息：CloseWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 0, cap: 0))
+2020-12-07 14:00:15,007 - 客户端断开连接：[id: 0xdd88d2b2, L:/127.0.0.1:8081 ! R:/127.0.0.1:16311]
+2020-12-07 14:00:16,825 - 客户端加入连接：[id: 0x0ee413f0, L:/127.0.0.1:8081 - R:/127.0.0.1:16319]
+2020-12-07 14:00:43,804 - 收到消息：HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: 127.0.0.1:8081
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Upgrade: websocket
+Origin: http://coolaf.com
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Sec-WebSocket-Key: MTb09/yjA1RLxA+qODQK4g==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+content-length: 0
+2020-12-07 14:01:49,724 - 收到消息：CloseWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 2, cap: 2))
+2020-12-07 14:01:49,726 - 客户端断开连接：[id: 0x0ee413f0, L:/127.0.0.1:8081 ! R:/127.0.0.1:16319]
+2020-12-07 15:19:39,466 - 收到消息：CloseWebSocketFrame(data: PooledUnsafeDirectByteBuf(ridx: 0, widx: 2, cap: 2))
+2020-12-07 15:19:39,472 - 客户端断开连接：[id: 0xa8310034, L:/127.0.0.1:8081 ! R:/127.0.0.1:16314]

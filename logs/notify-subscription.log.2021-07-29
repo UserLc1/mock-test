@@ -1,0 +1,22 @@
+2021-07-29 14:50:50,876 - using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2021-07-29 14:55:16,864 - using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2021-07-29 14:56:27,482 - using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2021-07-29 15:02:18,379 - using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2021-07-29 15:03:01,445 - using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2021-07-29 19:58:10,835 - {conn-10001,procId-1872} connected
+2021-07-29 19:58:10,845 - {conn-10002,procId-1873} connected
+2021-07-29 19:58:10,854 - {conn-10003,procId-1874} connected
+2021-07-29 19:58:10,859 - {conn-10003} pool-connect
+2021-07-29 19:58:10,864 - {conn-10003} pool-recycle
+2021-07-29 19:58:10,869 - {conn-10003} pool-connect
+2021-07-29 19:58:10,872 - {conn-10003, stmt-20000} created
+2021-07-29 19:58:10,955 - {conn-10003, stmt-20000, rs-50000} query executed. 78.6128 millis. /* ping */ SELECT 1
+2021-07-29 19:58:10,955 - {conn-10003, stmt-20000, rs-50000} open
+2021-07-29 19:58:10,957 - {conn-10003, stmt-20000, rs-50000} Header: [1]
+2021-07-29 19:58:10,960 - {conn-10003, stmt-20000, rs-50000} Result: [1]
+2021-07-29 19:58:10,961 - {conn-10003, stmt-20000, rs-50000} closed
+2021-07-29 19:58:10,962 - {conn-10003, stmt-20000} closed
+2021-07-29 19:58:10,962 - {conn-10003} pool-recycle
+2021-07-29 19:59:14,090 - {conn-10001} closed
+2021-07-29 19:59:14,091 - {conn-10002} closed
+2021-07-29 19:59:14,092 - {conn-10003} closed
