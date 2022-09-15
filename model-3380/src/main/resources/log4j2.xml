@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xi="http://www.w3.org/2001/XInclude" monitorInterval="30">
+
+    <Properties>
+        <Property name="LOG_PATTERN">{"logger": "%logger", "level": "%level", "msg": "%message"}%n</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="stdout" target="SYSTEM_OUT">
+            <PatternLayout pattern="${LOG_PATTERN}" />
+        </Console>
+
+        <Gelf name="logstash-gelf" host="tcp:119.91.125.42" port="4567" version="1.1" ignoreExceptions="true"
+              extractStackTrace="true" filterStackTrace="false">
+            <Field name="timestamp" pattern="%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ}" />
+            <Field name="level" pattern="%level" />
+            <Field name="simpleClassName" pattern="%C{1}" />
+            <Field name="className" pattern="%C" />
+            <Field name="server" pattern="%host" />
+        </Gelf>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="elk.test" level="info" additivity="false">
+            <AppenderRef ref="stdout" />
+            <AppenderRef ref="logstash-gelf" />
+        </Logger>
+        <Root level="error">
+            <AppenderRef ref="stdout" />
+        </Root>
+    </Loggers>
+
+</configuration>

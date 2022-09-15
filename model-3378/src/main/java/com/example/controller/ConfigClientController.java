@@ -3,15 +3,15 @@ package com.example.controller;
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.fastjson.JSONObject;
 import com.example.xo.async.AsyncTaskService;
+import com.example.xo.dto.Result;
 import com.example.xo.entity.ActivityBargainHelp;
+import com.example.xo.entity.zb.ZbUser;
 import com.example.xo.service.xgdb.user.ActivityBargainHelpService;
 import com.example.xo.service.xgdb.user.UserMemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;

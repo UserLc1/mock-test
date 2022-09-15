@@ -6,14 +6,32 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 190.168.1.27:8848 #Nacos服务注册中心地址
+        server-addr: localhost:8848 #Nacos服务注册中心地址
       config:
         server-addr: localhost:8848 #Nacos配置中心地址
         file-extension: yml #指定yml格式的配置
     sentinel:
       transport:
         dashboard: localhost:8080 #配置Sentinel dashboard地址
-        port: 8719  #默认8719，如果被占用则从其开始递增寻找未被占用端口
+        port: 8899  #默认8719，如果被占用则从其开始递增寻找未被占用端口
+      # sentinel持久化到nacos
+      datasource:
+        flow:
+          nacos:
+            # nacos连接地址
+            server-addr: ${spring.cloud.nacos.discovery.server-addr}
+            # nacos中的配置名称
+            data-id: ${spring.application.name}-flow-rules
+            group-id: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+        degrade:
+          nacos:
+            server-addr: ${spring.cloud.nacos.discovery.server-addr}
+            data-id: ${spring.application.name}-degrade-rules
+            group-id: DEFAULT_GROUP
+            data-type: json
+            rule-type: degrade
 #  datasourc e:
 #    # 配置数据源类型
 #    type:

@@ -1,4 +1,4 @@
-package com.example.commons.config.mybatis;
+package com.example.xo.config.mybatis;
 
 /**
  * @Author: Lc

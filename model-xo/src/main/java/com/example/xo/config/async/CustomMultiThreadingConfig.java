@@ -1,4 +1,4 @@
-package com.example.commons.config;
+package com.example.xo.config.async;
 
 import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;
 import org.springframework.context.annotation.ComponentScan;

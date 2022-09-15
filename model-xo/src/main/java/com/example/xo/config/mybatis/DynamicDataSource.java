@@ -1,4 +1,4 @@
-package com.example.commons.config.mybatis;
+package com.example.xo.config.mybatis;
 
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 

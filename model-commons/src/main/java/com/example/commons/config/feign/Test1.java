@@ -20,7 +20,7 @@ public class Test1 {
         System.out.println(new Test1().getInt());
     }
 
-    public Integer getInt() throws InterruptedException, ExecutionException {
+    public Integer getInt() {
         int temp = 0;
         AtomicStampedReference<Test1> rf = new AtomicStampedReference<>(new Test1(),temp);
         ExecutorService executor = Executors.newFixedThreadPool(3);
